@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tarang — Portfolio</title>
+  <meta name="description" content="Portfolio of Tarang">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Tarang</h1>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/tar-ang-2004" target="_blank" rel="noopener">GitHub</a>
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>I build fast, modern web apps.</h2>
+        <p class="lead">Hi, I'm Tarang — a developer who loves building open-source projects. Below are my repositories and featured projects.</p>
+        <a class="cta" href="#projects">See projects</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h3>Projects</h3>
+      <div id="repo-list" class="repo-grid" aria-live="polite">
+        <!-- Repos will be injected here -->
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h3>About</h3>
+      <p>Open-source enthusiast. JavaScript, TypeScript, and full-stack development. Check out my GitHub for more.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tarang • <a href="https://github.com/tar-ang-2004" target="_blank" rel="noopener">github.com/tar-ang-2004</a></p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js" type="module"></script>
+</body>
+</html>
